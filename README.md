@@ -6,7 +6,8 @@ PicoHTTP is a tiny web server written in .NET - less than 100 lines of code! The
 web server is to help with learning the HTTP protocol. You deal with raw HTTP requests and 
 responses in this server allowing you to play around with the lower level HTTP details.
 
-The server is not meant to be built and deployed anywhere. You simply run it in your IDE (Visual Studio, Rider or VS Code).
+The server is not meant to be built and deployed anywhere. You simply run it in your IDE (Visual Studio, Rider or VS Code)
+or on the command line.
 
 ## How to run
 
@@ -20,7 +21,9 @@ The server will start at <http://localhost:5000>. If you open this URL in the br
 
 ## Request Processors
 
-The above "Hello, world..." response code is implemented in `HelloWorldRequestProcessor` class. There is another example Request Processor called `AddNumbersRequestProcessor`. Go to `Program.cs` and replace `HelloWorldRequestProcessor` on the below line with your `AddNumbersRequestProcessor`.
+The above "Hello, world..." response code is implemented in `HelloWorldRequestProcessor` class. There is another example
+request processor called `AddNumbersRequestProcessor`. Go to `Program.cs` and replace `HelloWorldRequestProcessor` on the
+below line with `AddNumbersRequestProcessor`.
 
 Change this:
 
